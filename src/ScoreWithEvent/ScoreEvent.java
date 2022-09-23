@@ -1,6 +1,5 @@
 package ScoreWithEvent;
 
-
 import java.util.EventObject;
 
 /*
@@ -14,7 +13,7 @@ import java.util.EventObject;
  * @author Prueksa
  */
 public class ScoreEvent extends EventObject {
-     private String someData;
+    private String someData;
     
     public ScoreEvent(Object o, String str) {
         super(o);
@@ -23,6 +22,5 @@ public class ScoreEvent extends EventObject {
     
      public String getSomeData() {
         return someData;
-    }
-    
+    }  
 }

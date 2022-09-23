@@ -11,6 +11,8 @@ package ScoreWithEvent;
  * @author Prueksa
  */
 public class Subscriber1 implements ScoreListener {
+    
+    @Override
     public void scoreChange(ScoreEvent e) {
         System.out.println("Live Result : " + e.getSomeData());
    }

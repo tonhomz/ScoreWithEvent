@@ -1,6 +1,5 @@
 package ScoreWithEvent;
-
-
+ 
 import java.util.EventListener;
 
 /*

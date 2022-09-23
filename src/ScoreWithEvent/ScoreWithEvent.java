@@ -18,6 +18,7 @@ public class ScoreWithEvent {
         
         ScoreSource source = new ScoreSource();
         Subscriber1 sub1 = new Subscriber1();
+        // Subscriber1 sub2 = new Subscriber1();
         Subscriber2 sub2 = new Subscriber2();
         
         source.addScoreListener(sub1);
